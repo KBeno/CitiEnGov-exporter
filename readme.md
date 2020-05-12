@@ -23,11 +23,11 @@ the script takes 4 arguments:
 - the name of the standard to make the gml compliant to: *INSPIRE* or *CityGML*
 
 in the command line type this to write out help
-```python
+```bash
 python citiengov_export_gml.py --help
 ```
 example commands:
-```python
+```bash
 python citiengov_export_gml.py -f citiengov.gml inspire.gml INSPIRE
 python citiengov_export_gml.py -u "http://..." citygml.gml CityGML
 ```
